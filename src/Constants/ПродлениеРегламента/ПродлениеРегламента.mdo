@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7592b0c1-faf5-4d24-bc07-62760a177751">
+  <producedTypes>
+    <managerType typeId="bf5cca7e-8ae8-471e-a82a-429de78ffef9" valueTypeId="7c994657-25ff-4e68-803f-80e625930c3b"/>
+    <valueManagerType typeId="883524bc-e78a-4da2-b55f-051204d9bcf1" valueTypeId="0044ca07-eb46-48ad-be70-bc7c7fe4f83b"/>
+    <valueKeyType typeId="6f553352-7141-57b3-bc0a-71859d0559a0" valueTypeId="9b5a5184-cb69-56aa-9dca-610968dd9fa8"/>
+  </producedTypes>
+  <name>ПродлениеРегламента</name>
+  <synonym>
+    <key>ru</key>
+    <value>% Продление регламента</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

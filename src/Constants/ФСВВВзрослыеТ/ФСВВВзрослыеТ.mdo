@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd16a835-4560-4543-aa29-e90806b85fb1">
+  <producedTypes>
+    <managerType typeId="8a052f33-c4ea-47f8-9252-4bacf4d2cd6e" valueTypeId="24942cc9-4dc1-4f33-9cfa-30e5decd0e19"/>
+    <valueManagerType typeId="da21d22e-46e5-4567-90b0-6d1b57b33b3b" valueTypeId="f226157b-c375-48b7-8dcf-7eca0230f0f7"/>
+    <valueKeyType typeId="7fb6a41e-d293-5e63-ad4f-f886b8aa811d" valueTypeId="009f9230-5015-533a-9822-fc8a411e7045"/>
+  </producedTypes>
+  <name>ФСВВВзрослыеТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ФСВВВзрослыеТ</value>
+  </synonym>
+  <comment>Вылет ВВЛ тариф</comment>
+  <type>
+    <types>CatalogRef.Услуги</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

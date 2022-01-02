@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="245f6ab8-62d6-4531-9008-a51665e0f275">
+  <producedTypes>
+    <managerType typeId="808dd959-cff4-4585-810d-fb3a3e0be3e3" valueTypeId="d63128df-e011-42d9-a1d3-8711b70e95f4"/>
+    <valueManagerType typeId="ee742bf5-5510-49c4-b0dc-38b8dcab0849" valueTypeId="84f29f10-40ef-42a1-8db4-e020685db464"/>
+    <valueKeyType typeId="d0ba4eb6-50d6-5ab1-aa40-8333c76f2c26" valueTypeId="d096cffb-1e7a-5ab2-9e73-db8a4118cb6d"/>
+  </producedTypes>
+  <name>ФСВVДетиТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ФСВVДетиТ</value>
+  </synonym>
+  <comment>Вылет VIP тариф</comment>
+  <type>
+    <types>CatalogRef.Услуги</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

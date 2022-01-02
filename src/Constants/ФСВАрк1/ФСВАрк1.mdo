@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa82a9bb-6f35-4284-bf5c-57a75e1e0656">
+  <producedTypes>
+    <managerType typeId="18ec0207-3fa4-4a8c-b4ac-79caef72756e" valueTypeId="f4253ef4-4371-4c1a-9602-b003fb098b24"/>
+    <valueManagerType typeId="fbc11bfd-9330-4eb7-b00d-183c91bdc559" valueTypeId="bc10cff3-b9c4-4a0f-861f-d9fd2c5be48e"/>
+    <valueKeyType typeId="6a77e13f-3ab4-5376-8fa2-ecb1ac224dc8" valueTypeId="f4e9237d-3c95-5f96-8b53-b2a4e0fc236e"/>
+  </producedTypes>
+  <name>ФСВАрк1</name>
+  <synonym>
+    <key>ru</key>
+    <value>ФСВАрк1</value>
+  </synonym>
+  <comment>Вылет</comment>
+  <type>
+    <types>CatalogRef.Услуги</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

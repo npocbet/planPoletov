@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e4f3da0-ee88-4040-967e-0fd0bdda3959">
+  <producedTypes>
+    <managerType typeId="880554ab-5246-4725-9f6d-60f392a7ae0a" valueTypeId="d3d8ac3f-27bd-4cd2-b080-8db338857837"/>
+    <valueManagerType typeId="c72dd7af-512d-4570-a35d-15eedade54a9" valueTypeId="5a6a32c6-fc91-405b-80a2-cfc4d5b8c397"/>
+    <valueKeyType typeId="e64404c7-3751-5be7-aa59-8063421d0d70" valueTypeId="6c932d5d-96c8-57a5-a10a-d4cbd837abe4"/>
+  </producedTypes>
+  <name>ФСПВДетиА</name>
+  <synonym>
+    <key>ru</key>
+    <value>ФСПВДетиА</value>
+  </synonym>
+  <comment>Прилет ВВЛ аэропортовый сбор</comment>
+  <type>
+    <types>CatalogRef.Услуги</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>
