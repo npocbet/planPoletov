@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd37806a-651a-49a5-91ca-91dfdf51c117">
-  <name>РучнаяПравкаМакетов</name>
-  <synonym>
-    <key>ru</key>
-    <value>Ручная правка макетов</value>
-  </synonym>
-</mdclass:Role>
