@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55d39225-f3e2-497e-932c-1810d748bedd">
+  <producedTypes>
+    <objectType typeId="520b69ef-880b-44ec-879a-beaaa48ae588" valueTypeId="03b999b7-9530-4e17-806e-fd3714c0a388"/>
+    <refType typeId="e3fe4eed-081a-4bde-9e30-4343a76ac030" valueTypeId="3bafae0b-c639-4e5c-b7f3-7c232fb17d39"/>
+    <selectionType typeId="ecf9b4dc-38f5-4e33-9619-94ef35ec761d" valueTypeId="aa1ac316-dc36-4632-bfb6-7c1a1be11e5a"/>
+    <listType typeId="f8b39cad-a365-46e9-ae99-5e2989d4e20f" valueTypeId="83551818-3928-40c3-aacf-35dcc39d2295"/>
+    <managerType typeId="25a3508a-1047-4f9e-ba5a-095cd18466f0" valueTypeId="c89fbf21-7b42-47e0-bd60-290e4c0e57d6"/>
+  </producedTypes>
+  <name>ПредставителиАвиакомпаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Представители авиакомпаний</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПредставителиАвиакомпаний.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПредставителиАвиакомпаний.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
