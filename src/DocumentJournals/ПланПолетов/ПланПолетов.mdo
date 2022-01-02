@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40d65bf2-4b22-4d82-a8c7-59c66d4d86af">
+  <producedTypes>
+    <selectionType typeId="af2b4184-207c-47bd-a5e4-259fb80654d6" valueTypeId="48345268-c792-4e35-ba90-83a844dce4aa"/>
+    <listType typeId="9d7fe57e-4bf2-40d1-88a1-7415578d97ad" valueTypeId="d2ec5c43-84e1-4436-a260-a7a9614b0b70"/>
+    <managerType typeId="20e3d7c2-67ab-4d3f-8289-45b1beb9249d" valueTypeId="c7c065e7-b50d-4927-8d45-29e84afcfe52"/>
+  </producedTypes>
+  <name>ПланПолетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>План полетов</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ПланПолетов.Form.ФормаСпискаСегодня</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Прилеты</registeredDocuments>
+  <registeredDocuments>Document.Вылеты</registeredDocuments>
+  <forms uuid="e0410dd0-2a0f-4875-9c17-3a4663cb1ebb">
+    <name>ФормаСпискаСегодня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка сегодня</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5ef8f2a3-d139-45a9-bc54-79dce24c9122">
+    <name>ФормаСпискаЗавтра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка завтра</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1176a0d-2029-480f-92e4-0d439efcd9fb">
+  <producedTypes>
+    <objectType typeId="f48e8408-2fd2-4228-b119-d20e64eb5861" valueTypeId="2b94cdb7-07f2-4248-8a0b-9067e0828c89"/>
+    <refType typeId="acb3905f-886f-422e-817f-6c79327d084f" valueTypeId="1e701d5f-d30d-4657-8257-9d3a44a414f0"/>
+    <selectionType typeId="6bd3e039-8c7c-41f4-ac72-502984eda8a3" valueTypeId="609de5b0-4551-460c-a503-3f29be45d12d"/>
+    <listType typeId="cf951a51-17cd-4858-85d3-3a7e966be486" valueTypeId="462eb254-1ff2-4c1b-be1f-cde45d927d7b"/>
+    <managerType typeId="d7227d37-5260-4221-bce8-ae875d66b6c8" valueTypeId="fc61167f-28d2-4c96-b673-7440817b14be"/>
+  </producedTypes>
+  <name>Версии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Версии.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Версии.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="898d740b-d361-4cbd-9ed8-9bae740f7ba1">
+    <name>Изменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6f179f87-5170-4379-8ba3-e1eea393fa41">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

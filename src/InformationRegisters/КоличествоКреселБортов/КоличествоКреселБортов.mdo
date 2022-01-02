@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2315103-5209-43fd-9351-c8efbe0b5955">
+  <producedTypes>
+    <selectionType typeId="df18a46a-bff3-48b0-922b-50980fe5911d" valueTypeId="30b0cee7-6cdf-4d23-a0c4-e161623816fb"/>
+    <listType typeId="d4ce0097-6deb-4227-a4f5-72a6b056d3d4" valueTypeId="fd578a86-8133-4e7b-90af-a3560b78acee"/>
+    <managerType typeId="55f05def-6f8b-4bc6-8637-8577fe9238d6" valueTypeId="754a1b68-936b-4d1d-9305-a703ee3315fe"/>
+    <recordSetType typeId="08829f16-e6f5-4d88-8718-db9bb9ed7b8f" valueTypeId="8e754bc2-2fc8-4f6f-8b90-b40a16699928"/>
+    <recordKeyType typeId="e455120e-e704-42b8-a788-5ac27b99e2ce" valueTypeId="8a6ff9a9-d2da-4eb5-9826-3cde802e1583"/>
+    <recordType typeId="fe82139a-1877-4e49-b5ed-cee02c880b94" valueTypeId="14b994f7-3837-46da-abc5-f2b54728a246"/>
+    <recordManagerType typeId="2a23a5d2-1376-459f-8f20-bc230d23ebc9" valueTypeId="d5abed29-1d60-4eae-a9f0-ac1c6af761c2"/>
+  </producedTypes>
+  <name>КоличествоКреселБортов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество кресел бортов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="f9f96f57-fedb-4a58-b277-ab2fdeff5420">
+    <name>КоличествоКресел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество кресел</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bbb651ab-4224-44da-a4e2-cdfe722dcc5a">
+    <name>НомерБорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер борта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

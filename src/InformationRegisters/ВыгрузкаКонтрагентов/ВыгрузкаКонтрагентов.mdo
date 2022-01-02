@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0e594f5-9647-41c7-b3ab-2f5665631c6c">
+  <producedTypes>
+    <selectionType typeId="d290f870-10ad-4ef9-975e-d7d120e1f5ea" valueTypeId="63ca0723-a6f5-41be-8567-49d58cd71bea"/>
+    <listType typeId="3bc7c9d1-cabb-40bd-946a-8e49e1ebdcb3" valueTypeId="e123e761-0b5e-48db-b231-9fabcdab2163"/>
+    <managerType typeId="53778516-29b9-4a9b-ae3c-2a87f0912122" valueTypeId="1f6b8448-213b-4317-8b84-cf8dae8cb499"/>
+    <recordSetType typeId="6ed9158c-a868-4521-99d6-2f0c942c1d8a" valueTypeId="daad4a07-7596-4bd2-8dbb-46c873540b0c"/>
+    <recordKeyType typeId="68480d6d-acfe-4549-bfa4-4579f7d568d8" valueTypeId="1918b20b-da45-473f-ac42-dbf35bd2f5c8"/>
+    <recordType typeId="62ff6774-3fd9-4f6f-ba5d-233835c9f8ac" valueTypeId="31954f2b-74d4-49f5-9b70-5dd8060e7c25"/>
+    <recordManagerType typeId="280277b4-26f7-4fe3-aef5-1312a93d48f0" valueTypeId="7aa9f9f5-9693-457a-bd54-24276257bab2"/>
+  </producedTypes>
+  <name>ВыгрузкаКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dimensions uuid="03da3089-c14d-4dd0-8f1a-79b850494e90">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

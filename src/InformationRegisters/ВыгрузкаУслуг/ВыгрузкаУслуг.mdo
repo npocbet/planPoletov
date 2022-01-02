@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78a38448-d4f4-4000-b4e3-cbed1501a72d">
+  <producedTypes>
+    <selectionType typeId="f64e0f24-1257-46d7-a4e8-448e34d50054" valueTypeId="98322d10-6ff0-43dd-8a34-268de41b6211"/>
+    <listType typeId="6d8fa587-30ca-4367-bd58-42741234ec86" valueTypeId="c0b80514-dab9-4a9d-afc2-2554add05c37"/>
+    <managerType typeId="c4351dc3-48f9-42a6-b6b9-4329df6d056e" valueTypeId="0d1df06a-4955-436f-9f48-03a4858110fb"/>
+    <recordSetType typeId="7e282c58-768a-408b-b392-5ed8b49ed003" valueTypeId="375f9ba8-7ebd-41a9-9c9d-3a29922f8f7c"/>
+    <recordKeyType typeId="a1fe43ad-f46e-4ddb-8021-307fa4328d78" valueTypeId="6d952bad-90a7-4937-9464-704a903977aa"/>
+    <recordType typeId="7f5ce0a2-bca3-492d-8db0-76b2072b3f80" valueTypeId="7b69a467-0ea2-4890-a17b-4be30aab094d"/>
+    <recordManagerType typeId="ea9cac83-8a8c-45b7-a041-bc2db3feb639" valueTypeId="06e2cc70-624a-4594-8562-eed3579537f6"/>
+  </producedTypes>
+  <name>ВыгрузкаУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dimensions uuid="12c50330-5651-466f-bf0a-20ed43aee790">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

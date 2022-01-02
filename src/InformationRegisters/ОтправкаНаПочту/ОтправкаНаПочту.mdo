@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f33b5c31-2168-448c-addf-8bf07faf3590">
+  <producedTypes>
+    <selectionType typeId="5fea56fa-c3e7-4400-ad02-054bc2e60c9f" valueTypeId="3223d44d-8944-4cbe-90f9-698ab560705c"/>
+    <listType typeId="3ef8ad2e-5806-4095-99b2-246781bb8536" valueTypeId="16788275-3186-4bb0-8c7e-da0b19b32eae"/>
+    <managerType typeId="3c1235ce-c873-4d7c-9be3-0dbcb60a7908" valueTypeId="bc3eb35a-31cf-4173-8a9d-2a887c1110d7"/>
+    <recordSetType typeId="f4c7ef59-5453-4269-8543-fd1547568857" valueTypeId="743823af-f421-4686-bc3f-b8a4ef1131b7"/>
+    <recordKeyType typeId="81a00b73-8414-4a43-a967-d7728f32a26f" valueTypeId="32061338-11a4-4674-af8a-cf85c8532587"/>
+    <recordType typeId="340edcc7-aca3-4d77-ae66-2d1b8b35c037" valueTypeId="ebd63fa6-97d5-4d19-bf8b-7d47f954f1b6"/>
+    <recordManagerType typeId="8386f34a-41a0-487a-92c3-084fe9e42947" valueTypeId="e1bea3b8-fe7a-43ba-85c9-c31b7c791921"/>
+  </producedTypes>
+  <name>ОтправкаНаПочту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка на почту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dimensions uuid="70c34f9a-1594-4ab0-8403-b46ca1b13062">
+    <name>ТипОтправляемогоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип отправляемого документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипОтправляемогоДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0bfe78ff-cb8f-4ef9-a98e-1b96faf2445e">
+    <name>НомерДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

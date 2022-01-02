@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58ae7c7e-5d49-4dc8-abf3-ffc718d1254c">
+  <producedTypes>
+    <selectionType typeId="24c4a4c2-1008-4abd-8579-42d83ad54784" valueTypeId="729a3b7a-fa83-4a2c-a51a-45f6bd8758b1"/>
+    <listType typeId="5164042f-e323-45fe-a4c7-ebf1d1d4aa4a" valueTypeId="e8f79213-1ef2-4fd2-9a61-29f9578d7139"/>
+    <managerType typeId="e718a53b-faf2-4973-9cf6-72fb7d3d56eb" valueTypeId="3ee92ca5-495f-423b-97e2-dd075db80543"/>
+    <recordSetType typeId="13a963f8-cf92-42f4-ba53-41fc25dd8951" valueTypeId="20e0bab1-7391-4318-9374-059733232781"/>
+    <recordKeyType typeId="419f49eb-2258-4a17-84a4-f6af42d573f8" valueTypeId="c155d7c8-31cd-4199-82be-930e110dc595"/>
+    <recordType typeId="2f72b8f8-1575-46b8-be91-1b2ea2492784" valueTypeId="f0dff80c-9288-4b6b-8022-9b849edf1b16"/>
+    <recordManagerType typeId="80e86c10-476a-4678-abd4-4180a6daba8d" valueTypeId="209a933d-3ef8-4b1a-9bff-85bd3d8d4485"/>
+  </producedTypes>
+  <name>УслугиВедомственных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги ведомственных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dimensions uuid="135e4aaa-6574-448f-a35c-1412b4153635">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

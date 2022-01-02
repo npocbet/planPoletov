@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c237ef3-df2b-4710-81ca-93210eb1b5c2">
+  <producedTypes>
+    <selectionType typeId="218fcb0a-cabb-4273-bfac-c8a9d2d89b9a" valueTypeId="aead6fa9-c0ab-453d-89af-11815b376802"/>
+    <listType typeId="4a8c63d9-36bc-4c7c-8c06-e65c4b15f22d" valueTypeId="3d5b925d-b740-41df-a4a8-769e76592780"/>
+    <managerType typeId="8d437999-b6da-4f94-b30d-410dffc50272" valueTypeId="5568ef25-9ec1-40b5-9e81-d45d6196ba40"/>
+    <recordSetType typeId="60641d84-999b-45c0-b75e-05ff713b287b" valueTypeId="c44e4428-5fe4-4d16-8f21-73d339cd4220"/>
+    <recordKeyType typeId="fe24e889-e865-46af-abd1-8b466f99a3c7" valueTypeId="475e3c2f-5097-40e7-9c9c-3a1ab7cda08e"/>
+    <recordType typeId="7aeec059-5c16-4eff-a158-de51d6b5e3d1" valueTypeId="cadc4945-cb02-48ec-8a03-4032503fcb10"/>
+    <recordManagerType typeId="203d735b-df87-4366-8659-d27e2ef7cd45" valueTypeId="0f8383e9-d0a4-440b-9b95-a5a57270af97"/>
+  </producedTypes>
+  <name>СвязьФормаСПрилетВылет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связь форма С - прилет вылет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dimensions uuid="8329e2d8-d3ba-4344-bcda-55faa3516f55">
+    <name>Прилет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прилет</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Прилеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7ed7cb32-d290-463a-93f5-9e8d8e476001">
+    <name>Вылет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вылет</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Вылеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

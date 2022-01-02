@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fff88b6e-b617-4551-acea-ecb3893e27d7">
+  <producedTypes>
+    <selectionType typeId="38fbbb62-b124-490f-b47b-3d9b1b173443" valueTypeId="084cfc39-42f3-4d0b-b827-2af7f4e82637"/>
+    <listType typeId="92b0923e-8bb0-44ce-9a4f-455001aa185f" valueTypeId="3ea74030-76ab-454e-912d-b3da38d3d49e"/>
+    <managerType typeId="5366f7d7-529a-4f6c-8a03-21d7f56c8b2e" valueTypeId="8dd53d23-366e-4eec-9c01-f9626f475a06"/>
+    <recordSetType typeId="4ce54c97-2db5-4119-a759-9a3617a51fa0" valueTypeId="1f8f4a21-913c-4e81-9b12-19c7173ec093"/>
+    <recordKeyType typeId="58ef1947-30ae-4d7a-98e4-327cdfe21f1a" valueTypeId="6eb51617-5ccc-4faf-b483-5be942dbed49"/>
+    <recordType typeId="13f2e348-0d45-4988-9318-3a726e24d566" valueTypeId="7b78e6af-6d65-4a88-a4ff-c30411f3a6e1"/>
+    <recordManagerType typeId="3a67de9f-a46c-43ce-829c-dbc9ddffcaef" valueTypeId="398e829c-be05-4d0b-aa75-64bb85f3ffc2"/>
+  </producedTypes>
+  <name>ВыгрузкаФормС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка форм С</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dimensions uuid="52eafc27-5da2-4eac-8aa3-fb52fb950053">
+    <name>ФормаС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма С</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ФормаС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

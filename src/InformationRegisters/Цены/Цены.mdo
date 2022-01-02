@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98f46251-9753-4d78-b6d5-03c098979194">
+  <producedTypes>
+    <selectionType typeId="dc7f0329-ec3e-4105-b8d2-f648b0c4a7ca" valueTypeId="35dd8a7c-40bb-4e15-b609-60bb71e07c90"/>
+    <listType typeId="147ef63c-f5d7-4e83-8e9a-46d46d915990" valueTypeId="64538c10-2cf3-4c32-a315-d87583ba9a55"/>
+    <managerType typeId="092a5652-b982-46b4-8ab8-e63cac515e08" valueTypeId="4c456dc5-dfaf-48fc-99fa-8d0b0f2ffb86"/>
+    <recordSetType typeId="0b66596f-3a7a-4299-81c0-b6053096aa50" valueTypeId="c6620563-7b5c-48b2-a256-db17f813821b"/>
+    <recordKeyType typeId="799b39a0-8a05-4ac1-863e-8d8edaf56925" valueTypeId="58548ca6-d5e0-4fa1-b4e0-6f7e23d8b67f"/>
+    <recordType typeId="15475b22-3722-4acd-a8aa-5d13e8101d85" valueTypeId="e44d0241-bf92-48c7-83d4-ec55c2153dfc"/>
+    <recordManagerType typeId="127d712a-c015-43b3-9d05-58118826df8f" valueTypeId="af041dd3-ec4f-4cbd-a2c4-43f45450630f"/>
+  </producedTypes>
+  <name>Цены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="88d68eaf-e4f5-41e2-8614-522ea0586d8f">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="bf80d38f-c482-40f2-bc70-be55803cc920">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="cca7e18c-97a4-44cc-9e44-7b259fe10f14">
+    <name>ДействителенДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действителен до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="68f4ce79-3ad0-4684-8f4f-c381fc4a0001">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment>Истина - У.Е., Ложь - Рубль</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="fa71794a-7503-4e2c-8638-be03e4fd75b1">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6146ce92-bf46-402f-9fd2-8ca29a238168">
+    <name>ИностранныйВС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иностранный ВС</value>
+    </synonym>
+    <comment>Ложь - российский владелец ВС, истина - иностранный</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="870a7eb8-4ad7-4ae4-bada-b169c07f58ce">
+    <name>МассаЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масса Л</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="17e97d74-7a29-41d0-9f9f-6c81af95182b">
+    <name>МассаП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масса П</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3d6d6319-2b57-495c-a19a-70710bab9d14">
+    <name>ТипВС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ВС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыВоздушныхСудов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3d53dc62-58f9-4056-94b0-bbd153ca2123">
+    <name>ЭтоВертолет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это вертолет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

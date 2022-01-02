@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5110c0ec-03b3-4729-b875-92d6fb79c7cc">
+  <producedTypes>
+    <selectionType typeId="3ce5ec39-faca-4efe-97a0-b86c10eb049e" valueTypeId="c62a4756-227f-4b34-9779-c40d9a050a29"/>
+    <listType typeId="d654c6c5-6bf4-49f3-bcc0-de034147de26" valueTypeId="287f44e9-c9c3-4b3a-9ccf-aa6518393a37"/>
+    <managerType typeId="8c95b194-deb6-40db-b7f2-605ca013414b" valueTypeId="1fa018c8-fc4e-43b1-b092-51005e565f43"/>
+    <recordSetType typeId="fa37802e-0fdc-4c19-a683-a3e3e755ba51" valueTypeId="021fd90a-b580-40e0-add9-2288ff9bf75e"/>
+    <recordKeyType typeId="79309b41-3544-4292-abbb-e7f30b539b74" valueTypeId="c9fe4d20-f5c6-47e2-85b3-b1e2fe16147f"/>
+    <recordType typeId="07b94ea1-49b1-4f35-97d9-896affac8953" valueTypeId="f6abbec6-89ae-4b1c-aed9-ee98f6ed2fb7"/>
+    <recordManagerType typeId="42c71baa-5fd9-4615-96f1-2f188d41b278" valueTypeId="c525c4bf-e9fe-4a8c-8ec5-d1776fc8dedf"/>
+  </producedTypes>
+  <name>СтавкаНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставка НДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="ed338507-7c75-4013-bf01-15cf42f42f0f">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>
