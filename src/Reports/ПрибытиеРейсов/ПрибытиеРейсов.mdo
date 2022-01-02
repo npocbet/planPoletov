@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be5a0596-65bb-4989-958e-665728932792">
+  <producedTypes>
+    <objectType typeId="ac7f5a2e-6fb1-4838-ab54-772b402d8496" valueTypeId="37d56118-6b6b-4849-bffb-22e39a70b4c2"/>
+    <managerType typeId="0a9b3385-b6d9-41c8-8d45-a12600bf45b3" valueTypeId="c5ba35b9-95d8-45c1-ab89-28cc457831cd"/>
+  </producedTypes>
+  <name>ПрибытиеРейсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прибытие рейсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПрибытиеРейсов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="42d70873-433e-46a1-8eb4-8372fec76888">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b642627-f225-40d4-af31-93e2201651ea">
+  <producedTypes>
+    <objectType typeId="591f4309-5439-444f-858d-e9aece951631" valueTypeId="635de5b9-2b99-4a3a-9521-e90bc1ec4eb6"/>
+    <managerType typeId="4487dcf7-f3fd-467d-967a-3407586ff8ea" valueTypeId="bf059f69-81e8-47dc-8302-ce4db8e40964"/>
+  </producedTypes>
+  <name>СведенияПоПассажиропотоку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения по пассажиропотоку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СведенияПоПассажиропотоку.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="365e0d6b-3503-434a-8d10-ace853108fb7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

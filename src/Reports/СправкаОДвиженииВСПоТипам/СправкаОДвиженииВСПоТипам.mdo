@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab45efce-2b7f-4cf1-8982-405e1367ae7f">
+  <producedTypes>
+    <objectType typeId="73a82fdf-9f3e-49de-abfd-cde5fc636b1b" valueTypeId="813bcf45-28ae-4506-8929-b8cac7673fda"/>
+    <managerType typeId="f5d59e4c-9620-4a09-8c7e-e8548b349d5d" valueTypeId="2ee40be4-6d4b-4023-8e24-f6ac64e3be80"/>
+  </producedTypes>
+  <name>СправкаОДвиженииВСПоТипам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка о движении ВС по типам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СправкаОДвиженииВСПоТипам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f261df8d-06c0-4106-bc82-93c5f8345d7e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

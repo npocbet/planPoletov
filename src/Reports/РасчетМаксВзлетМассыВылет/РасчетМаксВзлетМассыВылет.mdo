@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c52c9244-54cf-4228-a317-b7da5d564911">
+  <producedTypes>
+    <objectType typeId="09a0bb6d-0bb3-4d0d-a4ca-3659fa11116e" valueTypeId="55cc2b10-d078-4598-bf01-0429efd3a859"/>
+    <managerType typeId="ad251179-3af6-40e5-a948-923414460856" valueTypeId="1d7a03d2-78aa-4acb-8c8a-02e33310fa85"/>
+  </producedTypes>
+  <name>РасчетМаксВзлетМассыВылет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет макс взлет массы вылет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РасчетМаксВзлетМассыВылет.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d221814c-bd45-4c52-9fdb-f7368b5d96d0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

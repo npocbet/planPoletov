@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfba61a2-dfe1-4e62-b1c4-248fa816cb66">
+  <producedTypes>
+    <objectType typeId="78de761d-3ae6-4d28-b35a-a3fc35b8f3d2" valueTypeId="f61dab50-03c8-4c97-8ca6-2fec90f15a68"/>
+    <managerType typeId="15af8cb0-db27-4659-a8af-32c1b6e0d938" valueTypeId="741d19e5-c063-4342-a0ba-eee4cac0bff1"/>
+  </producedTypes>
+  <name>РеестрДекадаОЦО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр декада ОЦО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РеестрДекадаОЦО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ddb198bb-c174-4981-8543-ea2b4ee42ccd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

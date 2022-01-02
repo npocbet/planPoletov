@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="867b0959-7640-482b-845b-e4e1cb507e3f">
+  <producedTypes>
+    <objectType typeId="e0f6683e-f56b-430d-bba6-7a52ffa97e7d" valueTypeId="60d6767a-5f00-444e-92d6-a56386396195"/>
+    <managerType typeId="4f7e0cc8-d5d2-4143-84f7-f01d0dd6fcf6" valueTypeId="5ce2c661-51ae-4869-9ce3-61d6852b65c0"/>
+  </producedTypes>
+  <name>ЭффективностьПолетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эффективность полетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЭффективностьПолетов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f1709a32-2b9f-45b2-ae78-216f688d6823">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

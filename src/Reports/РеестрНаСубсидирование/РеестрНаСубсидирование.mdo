@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1acb71b-b0a7-4af7-b15f-3349efd28212">
+  <producedTypes>
+    <objectType typeId="c7dcc319-b0db-42d1-961d-3ad0d79341c2" valueTypeId="a9281643-2542-456d-a911-bdfcefa21fa1"/>
+    <managerType typeId="7ed7f0cc-490a-420c-b2c3-d1f503af5004" valueTypeId="796c7f51-66b0-4190-807c-975821cf1c52"/>
+  </producedTypes>
+  <name>РеестрНаСубсидирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр на субсидирование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РеестрНаСубсидирование.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="9004c6f2-8490-4c7f-937f-8ac4ed97907f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b4790a3-c5d3-4153-9954-b1b0d24ab9b3">
+  <producedTypes>
+    <objectType typeId="72238cd5-3c83-4d86-b5b6-0f2d6caf78d7" valueTypeId="5b568cf2-cbd2-42e4-b753-db745b0474d4"/>
+    <managerType typeId="7256a937-e974-442f-bf53-8e19bcf73185" valueTypeId="a8d1f99a-5e5c-4422-ac07-e761bf2f7480"/>
+  </producedTypes>
+  <name>ОтменыЗадержкиРейсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отмены и задержки рейсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтменыЗадержкиРейсов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="25444cdb-b0b6-49ca-8b6f-488b33b0ddcc">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df8998fb-6c84-445a-a0ec-b5814a2bec66">
+  <producedTypes>
+    <objectType typeId="3a18ab20-b117-41fc-91fb-b80b648fb666" valueTypeId="4a44f849-3e59-4a3b-9263-8851db6dabf6"/>
+    <managerType typeId="1cfeccc1-b49b-4b3b-8a92-a0eb22a0add0" valueTypeId="87dd34db-f764-4ce3-a8c7-f32be192cb28"/>
+  </producedTypes>
+  <name>ЕжедневныйОтчетСОП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ежедневный отчет СОП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ЕжедневныйОтчетСОП.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ЕжедневныйОтчетСОП.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="f068be79-f804-4628-8713-94d5546a62b7">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0ac2b524-6565-416c-8882-e83c321dcc7e">
+    <name>ДатаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата документа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="17dcac03-0578-4af5-a51f-154a5f0539b9">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b14f8262-7e8e-4276-9f74-6abf5fb12124">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
