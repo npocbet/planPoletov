@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e57a0b03-0c0f-44c4-8276-6a3743059379">
+  <name>ДиспетчерПДСА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диспетчер ПДСА</value>
+  </synonym>
+</mdclass:Role>
