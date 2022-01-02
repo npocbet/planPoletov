@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26758895-723f-487d-8514-5112d854c0be">
+  <producedTypes>
+    <objectType typeId="a4b26514-37ba-4d44-916f-78168a1cb205" valueTypeId="78a0ec60-4adb-491a-92df-f6f2da4f763a"/>
+    <refType typeId="a1af6fa1-05f5-42ef-80b2-e103bf010606" valueTypeId="71a51b56-ecc6-4d64-96cf-4f0c910ad4d2"/>
+    <selectionType typeId="416dd584-9726-4e15-95ad-14f179624fd7" valueTypeId="a4d22367-0db8-4e94-9f49-0b6ed880d664"/>
+    <listType typeId="77b9e201-1a99-44ac-b529-e0978cb0bb11" valueTypeId="3f6fce63-ac8d-483f-abfb-8439bbb52bfa"/>
+    <managerType typeId="f2a8d4ae-0cce-4951-aef7-739c6f86751d" valueTypeId="fa76352e-ade8-4103-bca4-19854943315e"/>
+  </producedTypes>
+  <name>ПричиныЗадержекПрилетаВылетаВС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины задержек прилета/вылета ВС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныЗадержекПрилетаВылетаВС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричиныЗадержекПрилетаВылетаВС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="244d5b42-2524-43a2-ab6b-2f66fccd55ff">
+    <name>НаименованиеНаАнглийском</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование на английском</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>35</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

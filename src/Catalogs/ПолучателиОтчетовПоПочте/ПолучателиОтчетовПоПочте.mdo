@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05856bdf-f1ad-4066-a299-587084eb5c9a">
+  <producedTypes>
+    <objectType typeId="60d2794f-4954-485d-aa8f-277cd579e32b" valueTypeId="687a9083-e32f-43bf-b2b2-e2db71d93cb7"/>
+    <refType typeId="a1df3468-870a-43f4-90dc-f5b73367fbd3" valueTypeId="b6d7f50e-92e3-4705-8fa7-f1c1fd175eed"/>
+    <selectionType typeId="983e1f43-f6ef-4982-95fb-21c1f5d8ddc7" valueTypeId="19c83220-2fad-4e0f-a5a5-d2cb7397b99a"/>
+    <listType typeId="140fc741-a2c6-400c-b848-a6b3c746b976" valueTypeId="85bf1534-90be-4354-8b08-4200a0124310"/>
+    <managerType typeId="521f93ba-be34-449c-a2bd-b69b91bdac7c" valueTypeId="23bd4b0c-ba9f-4ab0-ace8-be745e263064"/>
+  </producedTypes>
+  <name>ПолучателиОтчетовПоПочте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получатели отчетов по почте</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПолучателиОтчетовПоПочте.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПолучателиОтчетовПоПочте.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="75fbc59a-8419-4603-9d08-3cab3472d07f">
+    <name>АдресПолучателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес получателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2970bd76-c9df-4978-9edb-ba5fb5f9d713">
+    <name>ПолучательФормаС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель форма С</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55e158c5-360d-40bb-a9d7-aac6c42f9100">
+    <name>ПолучательОтчетСОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель отчет СОП</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c50a3283-4d0a-40f8-ab93-ea143e78e887">
+    <name>ПолучательСуточныйПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель суточный план</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="911cf642-1556-41b8-94b1-5d971119554c">
+    <name>ПолучательОбщийОтчетЗаСутки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель общий отчет за сутки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
