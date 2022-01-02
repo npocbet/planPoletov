@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПассажирыМалыши_отправлено</dataPath>
+			<field>ПассажирыМалыши_отправлено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пассажиры малыши отправлено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПассажирыДети_отправлено</dataPath>
+			<field>ПассажирыДети_отправлено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пассажиры дети отправлено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Багаж_отправлено</dataPath>
+			<field>Багаж_отправлено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Багаж отправлено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>VIPПассажирыВзрослые_отправлено</dataPath>
+			<field>VIPПассажирыВзрослые_отправлено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>VIPПассажиры взрослые отправлено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аэропорт</dataPath>
+			<field>Аэропорт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аэропорт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Груз_отправлено</dataPath>
+			<field>Груз_отправлено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Груз отправлено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РучнаяКладь_отправлено</dataPath>
+			<field>РучнаяКладь_отправлено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ручная кладь отправлено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Почта_отправлено</dataPath>
+			<field>Почта_отправлено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Почта отправлено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПассажирыВзрослые_отправлено</dataPath>
+			<field>ПассажирыВзрослые_отправлено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пассажиры взрослые отправлено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>VIPПассажирыДети_отправлено</dataPath>
+			<field>VIPПассажирыДети_отправлено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>VIPПассажиры дети отправлено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Рейсов_отправлено</dataPath>
+			<field>Рейсов_отправлено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рейсов отправлено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ДанныеВылетов.АэропортПрилета КАК Аэропорт,
+	СУММА(ДанныеВылетов.ПассажирыВзрослые) КАК ПассажирыВзрослые_отправлено,
+	СУММА(ДанныеВылетов.ПассажирыДети) КАК ПассажирыДети_отправлено,
+	СУММА(ДанныеВылетов.ПассажирыМалыши) КАК ПассажирыМалыши_отправлено,
+	СУММА(ДанныеВылетов.РучнаяКладь) КАК РучнаяКладь_отправлено,
+	СУММА(ДанныеВылетов.Багаж) КАК Багаж_отправлено,
+	СУММА(ДанныеВылетов.Почта) КАК Почта_отправлено,
+	СУММА(ДанныеВылетов.Груз) КАК Груз_отправлено,
+	СУММА(ДанныеВылетов.VIPПассажирыВзрослые) КАК VIPПассажирыВзрослые_отправлено,
+	СУММА(ДанныеВылетов.VIPПассажирыДети) КАК VIPПассажирыДети_отправлено,
+	СУММА(1) КАК Рейсов_отправлено
+ИЗ
+	РегистрНакопления.ДанныеВылетов КАК ДанныеВылетов
+ГДЕ
+	ДанныеВылетов.Дата &gt;= &amp;ДатаНачала
+	И ДанныеВылетов.Дата &lt; ДОБАВИТЬКДАТЕ(&amp;ДатаОкончания, ДЕНЬ, 1)
+	И ДанныеВылетов.АэропортПрилета = &amp;Аэропорт
+
+СГРУППИРОВАТЬ ПО
+	ДанныеВылетов.АэропортПрилета</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных2</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Багаж_прибыло</dataPath>
+			<field>Багаж_прибыло</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Багаж прибыло</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПассажирыМалыши_прибыло</dataPath>
+			<field>ПассажирыМалыши_прибыло</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пассажиры малыши прибыло</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РучнаяКладь_прибыло</dataPath>
+			<field>РучнаяКладь_прибыло</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ручная кладь прибыло</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аэропорт</dataPath>
+			<field>Аэропорт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аэропорт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПассажирыДети_прибыло</dataPath>
+			<field>ПассажирыДети_прибыло</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пассажиры дети прибыло</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Почта_прибыло</dataPath>
+			<field>Почта_прибыло</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Почта прибыло</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПассажирыВзрослые_прибыло</dataPath>
+			<field>ПассажирыВзрослые_прибыло</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пассажиры взрослые прибыло</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Груз_прибыло</dataPath>
+			<field>Груз_прибыло</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Груз прибыло</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Рейсов_прибыло</dataPath>
+			<field>Рейсов_прибыло</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рейсов прибыло</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ДанныеПрилетов.АэропортВылета КАК Аэропорт,
+	СУММА(ДанныеПрилетов.ПассажирыВзрослые) КАК ПассажирыВзрослые_прибыло,
+	СУММА(ДанныеПрилетов.ПассажирыДети) КАК ПассажирыДети_прибыло,
+	СУММА(ДанныеПрилетов.ПассажирыМалыши) КАК ПассажирыМалыши_прибыло,
+	СУММА(ДанныеПрилетов.РучнаяКладь) КАК РучнаяКладь_прибыло,
+	СУММА(ДанныеПрилетов.Багаж) КАК Багаж_прибыло,
+	СУММА(ДанныеПрилетов.Почта) КАК Почта_прибыло,
+	СУММА(ДанныеПрилетов.Груз) КАК Груз_прибыло,
+	1 КАК Рейсов_прибыло
+ИЗ
+	РегистрНакопления.ДанныеПрилетов КАК ДанныеПрилетов
+ГДЕ
+	ДанныеПрилетов.Дата &gt;= &amp;ДатаНачала
+	И ДанныеПрилетов.Дата &lt; ДОБАВИТЬКДАТЕ(&amp;ДатаОкончания, ДЕНЬ, 1)
+	И ДанныеПрилетов.АэропортВылета = &amp;Аэропорт
+
+СГРУППИРОВАТЬ ПО
+	ДанныеПрилетов.АэропортВылета</query>
+	</dataSet>
+	<dataSetLink>
+		<sourceDataSet>НаборДанных1</sourceDataSet>
+		<destinationDataSet>НаборДанных2</destinationDataSet>
+		<sourceExpression>Аэропорт</sourceExpression>
+		<destinationExpression>Аэропорт</destinationExpression>
+	</dataSetLink>
+	<totalField>
+		<dataPath>VIPПассажирыВзрослые_отправлено</dataPath>
+		<expression>Сумма(VIPПассажирыВзрослые_отправлено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>VIPПассажирыДети_отправлено</dataPath>
+		<expression>Сумма(VIPПассажирыДети_отправлено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Багаж_отправлено</dataPath>
+		<expression>Сумма(Багаж_отправлено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Багаж_прибыло</dataPath>
+		<expression>Сумма(Багаж_прибыло)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Груз_отправлено</dataPath>
+		<expression>Сумма(Груз_отправлено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Груз_прибыло</dataPath>
+		<expression>Сумма(Груз_прибыло)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПассажирыВзрослые_отправлено</dataPath>
+		<expression>Сумма(ПассажирыВзрослые_отправлено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПассажирыВзрослые_прибыло</dataPath>
+		<expression>Сумма(ПассажирыВзрослые_прибыло)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПассажирыДети_отправлено</dataPath>
+		<expression>Сумма(ПассажирыДети_отправлено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПассажирыДети_прибыло</dataPath>
+		<expression>Сумма(ПассажирыДети_прибыло)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПассажирыМалыши_отправлено</dataPath>
+		<expression>Сумма(ПассажирыМалыши_отправлено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПассажирыМалыши_прибыло</dataPath>
+		<expression>Сумма(ПассажирыМалыши_прибыло)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Почта_отправлено</dataPath>
+		<expression>Сумма(Почта_отправлено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Почта_прибыло</dataPath>
+		<expression>Сумма(Почта_прибыло)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Рейсов_отправлено</dataPath>
+		<expression>Сумма(Рейсов_отправлено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Рейсов_прибыло</dataPath>
+		<expression>Сумма(Рейсов_прибыло)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РучнаяКладь_отправлено</dataPath>
+		<expression>Сумма(РучнаяКладь_отправлено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РучнаяКладь_прибыло</dataPath>
+		<expression>Сумма(РучнаяКладь_прибыло)</expression>
+	</totalField>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>Аэропорт</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аэропорт</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Аэропорты</v8:Type>
+		</valueType>
+		<useRestriction>false</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПассажирыВзрослые_отправлено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПассажирыДети_отправлено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПассажирыМалыши_отправлено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>VIPПассажирыВзрослые_отправлено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>VIPПассажирыДети_отправлено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Груз_отправлено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Почта_отправлено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Рейсов_отправлено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РучнаяКладь_отправлено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПассажирыВзрослые_прибыло</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПассажирыДети_прибыло</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПассажирыМалыши_прибыло</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Груз_прибыло</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Почта_прибыло</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Рейсов_прибыло</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РучнаяКладь_прибыло</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаНачала</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>7cca83ad-fc53-4649-acf3-48fc5e161fb0</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаОкончания</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>0eb186a5-4999-40ff-9145-6b8b5613facc</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Аэропорт</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>673e9be7-72a1-40ca-8291-0500b56fb154</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>da408591-bcf9-43e8-b90c-4c3d97c2fb8d</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Аэропорт</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

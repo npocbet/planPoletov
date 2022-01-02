@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e5abcc6-1da3-4876-b9fd-3ee6a8cbffe9">
+  <producedTypes>
+    <objectType typeId="13bc6540-9787-4a4a-87b1-d662aeb4cde3" valueTypeId="0c9b165c-75a2-482c-b0dd-ca3bd87d1923"/>
+    <managerType typeId="4a1b3b00-d05f-438b-8707-fb026eb6c8bc" valueTypeId="e4ee7c50-50c7-44b0-8902-c2f37eb9ff82"/>
+  </producedTypes>
+  <name>ГеографияПолетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>География полетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ГеографияПолетов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="bbf80a51-f064-4bd1-9ee3-29f15023f070">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
