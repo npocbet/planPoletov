@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adf493e0-dbe8-49cb-85dc-f1f8b80ee8df">
+  <producedTypes>
+    <objectType typeId="6c46a463-a898-4b71-af1d-bfee29d43eab" valueTypeId="1b7e6cbe-a47f-44de-90c7-085dec02f9da"/>
+    <managerType typeId="9c7e9540-e208-41d4-8d42-34d04c37a271" valueTypeId="1f553960-d37b-4dd2-b2db-7c35ef13ebff"/>
+  </producedTypes>
+  <name>ПеречитатьРейсВДанныеСОП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перечитать рейс в данные СОП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПеречитатьРейсВДанныеСОП.Form.Форма</defaultForm>
+  <attributes uuid="c0d407c0-b815-4a1f-8589-a060eb20bcbf">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aee20f0d-3197-4faa-90d5-073c00bde085">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0b63f86c-62e8-4fb0-978a-08447464d392">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

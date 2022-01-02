@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7abd1bae-7f84-4f28-b3b1-ace3411b447e">
+  <producedTypes>
+    <managerType typeId="94437497-9b97-4a63-a006-70bdec705215" valueTypeId="2e2121e6-f55d-47f6-bdb3-a591470d41a7"/>
+    <valueManagerType typeId="b30db7b5-79a0-4721-b527-ab5364e15ed9" valueTypeId="6c382f6f-5e22-4af3-adc0-0e8977db4435"/>
+    <valueKeyType typeId="c3c12b9b-a8f0-458e-ab17-f77bd5ab49dc" valueTypeId="25ef1dda-5808-497a-9377-de547f4d91be"/>
+  </producedTypes>
+  <name>ГраницаЗапретаИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Граница запрета изменений</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>
