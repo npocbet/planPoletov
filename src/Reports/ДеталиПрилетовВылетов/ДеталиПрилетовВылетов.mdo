@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3904de14-c9e3-45fc-b7a5-7ecbd0fdc90c">
+  <producedTypes>
+    <objectType typeId="7ff662bb-fbdd-4503-afc0-96aa7330a228" valueTypeId="f9836a9b-db79-4220-a6af-6c751012a3b6"/>
+    <managerType typeId="04e388d0-38c6-4a73-83ec-246cf095c05c" valueTypeId="afccbd3c-7929-40e4-b5b3-6d21ae946b75"/>
+  </producedTypes>
+  <name>ДеталиПрилетовВылетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Детали прилетов вылетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ДеталиПрилетовВылетов.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ДеталиПрилетовВылетов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="245c1a32-4ba9-43b6-8412-d7f385e69ea6">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dae9ae37-5ce7-4359-9bb0-fd5429bd5e0e">
+    <name>ДатаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата документа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="dd50aa14-62ee-4dbe-9fe5-12d739d0d735">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="bcb87773-e808-4ffd-8c5c-b313bddffe81">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="45d36d6f-12b0-4d45-acd4-5d6c66269ab9">
+    <name>ДляПустойСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для пустой строки</value>
+    </synonym>
+  </templates>
+</mdclass:Report>
