@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bec76d9-8d88-42dd-83bd-10b7dd46d6f4">
+  <producedTypes>
+    <objectType typeId="b176bc96-4271-4a49-b83d-4e3f60e7acb1" valueTypeId="aa58bf5a-6e61-46e8-8555-7cc4f6b2d983"/>
+    <managerType typeId="0af3535e-5283-4946-b773-39be51712337" valueTypeId="c2d557d3-c316-4d50-9dac-504dac828a8e"/>
+  </producedTypes>
+  <name>СуточныйПлан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Суточный план</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СуточныйПлан.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.СуточныйПлан.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="4d790792-a143-4a15-8143-6faea1d134b3">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8f78d8d6-8327-486a-93f2-f7ef1bc0f622">
+    <name>ДатаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата документа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b7f22790-467f-4c21-a86d-71f3d33219cf">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c95b43be-a20c-497b-910c-680910531893">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e4a53d3e-9414-48cd-a9ac-f9a8361178e3">
+    <name>ДляПустойСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для пустой строки</value>
+    </synonym>
+  </templates>
+</mdclass:Report>
